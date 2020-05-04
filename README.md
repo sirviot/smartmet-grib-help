@@ -20,4 +20,4 @@ producerInfo=1;ASDFBLEND;ASDFBLEND;My blend of models bias fields;0;100
 
 First row. I don't know what it should be used for.
 The `producerId` is listed twice on the header row, and in the data it has a 
-value of both text and a number.
+value of both `1` and `100`.
