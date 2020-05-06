@@ -10,6 +10,16 @@ method values for accomplishing different things.
 
 ### Find Available Data Producers
 
+#### HTML Table
+
+There is a `page` querystring field that can have a value of `producers`.
+
+`/grid-admin?page=producers`
+
+This will return available producers as a HTML table.
+
+#### CSV
+
 Returns the available producer identifiers 
 and descriptions.
 
