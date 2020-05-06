@@ -2,15 +2,17 @@
 
 Personal(ish) notes about using SmartMet Server with grib-support.
 
-## Admin Plugin
+## Parametername For Timeseries Requests
+
+You need grid-gui plugin for this. Visit `/grid-gui`
+
+## Find Available Data Producers
 
 Instead of `what` grib-version uses parameter `method`.
 So `/admin?what=qengine` becomes `/grid-admin?method=...` and there are several 
 method values for accomplishing different things.
 
-### Find Available Data Producers
-
-#### HTML Table
+### HTML Table
 
 There is a `page` querystring field that can have a value of `producers`.
 
@@ -18,7 +20,7 @@ There is a `page` querystring field that can have a value of `producers`.
 
 This will return available producers as a HTML table.
 
-#### CSV
+### CSV
 
 Returns the available producer identifiers 
 and descriptions.
